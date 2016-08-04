@@ -1,0 +1,4 @@
+---
+# handlers file for essentials
+- name: update timezone
+  command: dpkg-reconfigure --frontend noninteractive tzdata
