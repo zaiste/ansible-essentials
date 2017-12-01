@@ -60,4 +60,4 @@ MIT / BSD
 Author Information
 ------------------
 
-[Zaiste](http://zaiste.net) 2014 - 2016
+[Zaiste](http://zaiste.net) 2017 
