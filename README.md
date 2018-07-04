@@ -1,15 +1,12 @@
-ansible-essentials
-=========
+# ansible-essentials
 
-An Ansible role that installs essential elements (libraries and packages) on Ubuntu Xenial.
+An Ansible role that installs essential elements (libraries and packages) for Ubuntu 18.04 (Bionic Beaver).
 
-Requirements
-------------
+## Requirements
 
 None.
 
-Role Variables
---------------
+## Role Variables
 
 - `essential_libraries` defaults to:
   ```
@@ -40,24 +37,20 @@ Role Variables
   - ufw
   ```
 
-Dependencies
-------------
+## Dependencies
 
 None.
 
-Example Playbook
-----------------
+## Example Playbook
 
     - hosts: servers
       roles:
          - { role: zaiste.essentials }
 
-License
--------
+## License
 
 MIT / BSD
 
-Author Information
-------------------
+## Author Information
 
-[Zaiste](http://zaiste.net) 2017 
+[Zaiste](http://zaiste.net) 2018
