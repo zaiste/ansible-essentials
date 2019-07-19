@@ -2,7 +2,6 @@
 # defaults file for essentials
 essential_libraries:
   - software-properties-common
-  - python-software-properties
   - build-essential
   - libreadline-dev
   - libssl-dev
